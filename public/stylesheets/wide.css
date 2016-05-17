@@ -1,0 +1,29 @@
+body {
+	background: #999;
+}
+.main {
+	background: #eee;
+}
+#page:after {
+	content: "Wide Layout";
+}
+.wrap {
+	display: table;
+	height: 65vh;
+	width: 100%;
+	border-spacing: 1px;
+}
+nav {
+	display: table-cell;
+	width: 15%;
+}
+section {
+	display: table-cell;
+	width: 80%;
+}
+footer {
+	clear: both;
+}
+nav a {
+	display: block; text-align: left;
+}
