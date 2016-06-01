@@ -2,7 +2,7 @@
 	La respuesta <strong><%= answer %></strong> es <%= result %>
 </p>
 <p>
-	<a href="/question?answer=<%= answer %>">
+	<a href="/quizzes/<%= quiz.id%>?answer=<%= answer %>">
 		<%= (result === 'Correcta') ? "ez lmao" : "gg"%>
 	</a>
 </p>
